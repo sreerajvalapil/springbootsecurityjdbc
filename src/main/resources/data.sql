@@ -8,9 +8,9 @@ INSERT INTO users(username,password,enabled)
 values('sreyaan','volvoit',true);
 
 INSERT INTO authorities(username,authority)
-values('sreeraj','ROLE_SREERAJ');
+values('sreeraj','ROLE_ADMIN');
 INSERT INTO authorities(username,authority)
-values('sajana','ROLE_SAJANA');
+values('sajana','ROLE_USER');
 INSERT INTO authorities(username,authority)
-values('sreyaan','ROLE_SREYAAN');
+values('sreyaan','ROLE_CHILD');
 
